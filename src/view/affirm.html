@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>affirm</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="css/affirm.css">
+</head>
+<body>
+<div class="container">
+	<header class="header">
+		<a title="shopping.html" ui-sref="shopping"><img src="images/diamond_03.png" alt=""></a>
+		<h4>订单确认</h4>
+	</header>
+	<main class="main" id="main">
+		<div class="scroll">
+			<p id="topp">
+				王××&nbsp;15011101608
+				</br>
+				×××××××××××
+				<b><img src="images/affirm_03.png" alt=""></b>
+			</p>
+			<p class="centerp">
+				配送方式<span>必填</span><b><img src="images/affirm_07.png" alt=""></b>
+			</p>
+			<p class="centerp">
+				支付方式<span>必填</span><b><img src="images/affirm_07.png" alt=""></b>
+			</p>
+			<p class="bottomp">商品列表</p>
+			<p class="bottomp">18K钻石戒指托 白金戒指托 订婚 结婚钻石戒托&nbsp;&nbsp;¥28574.00元</p>
+			<p class="bottomp" id="lastp">
+				订单完成后，您将获得<span>28574<span>积分，以及价值</span>¥0.00元的红包</span><br>
+				商品总价：<span>¥28574.00元</span><br>
+				+配送费：<span>¥8.00元</span><br>
+				应付款金额：<span>¥28582.00元</span>
+			</p>
+			<p class="submit">
+				<a title="submit.html" ui-sref="submit">订单提交</a>
+			</p>
+		</div>	
+	</main>
+</div>
+	
+</body>
+</html>
+<script src="js/zepto.min .js"></script>
+<script src="js/iscroll5.js"></script>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+	
+	/*--------------IScroll-------------------*/
+	var main=new IScroll("#main",{
+		click:true
+	});
+</script>

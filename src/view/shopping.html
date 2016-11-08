@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="css/shopping.css">
+	<title>shopping</title>
+</head>
+<body>
+<div class="container">
+	<header class="header">
+		<h4 id="tit">购物车</h4>	
+	</header>
+	<main class="main" id="main">
+		<div class="scroll">
+			<p class="tit">
+				<span></span>
+				宇婷
+				<b>
+					<img src="images/shopping_03.png" alt="">
+				</b>
+			</p>
+			<div class="goods">
+				<div class="sell">
+					<span></span>
+					<dl>
+						<dt>
+							<img src="images/shopping_09.png" alt="">
+						</dt>
+						<dd>
+							18K钻石情侣戒【白18K金（女款）】
+							<small>钻石分数：白18K金（女款）</small>
+							<i>¥2088.00元</i>
+
+						</dd>
+					</dl>	
+				</div>
+				<p class="sub">
+					<b>-</b>
+					<input type="text" value="1" readOnly>
+					<b>+</b>
+				</p>	
+			</div>
+			<p class="tit">
+				<span></span>
+				宇婷
+				<b>
+					<img src="images/shopping_03.png" alt="">
+				</b>
+			</p>
+			<div class="goods">
+				<div class="sell">
+					<span></span>
+					<dl>
+						<dt>
+							<img src="images/shopping_09.png" alt="">
+						</dt>
+						<dd>
+							18K钻石情侣戒【白18K金（男款）】
+							<small>钻石分数：白18K金（男款）</small>
+							<i>¥4288.00元</i>
+
+						</dd>
+					</dl>	
+				</div>
+				<p class="sub">
+					<b>-</b>
+					<input type="text" value="1" readOnly>
+					<b>+</b>
+				</p>	
+			</div>
+			<p class="tit">
+				<span></span>
+				时代之家
+				<b>
+					<img src="images/shopping_03.png" alt="">
+				</b>
+			</p>
+			<div class="goods">
+				<div class="sell">
+					<span></span>
+					<dl>
+						<dt>
+							<img src="images/shopping_06.png" alt="">
+						</dt>
+						<dd>
+							18K玫瑰金/钻石戒指/情侣戒/爱之力【0.28ct】
+							<small>钻石分数：白18K金（男款）</small>
+							<i>¥1945.00元</i>
+
+						</dd>
+					</dl>	
+				</div>
+				<p class="sub">
+					<b>-</b>
+					<input type="text" value="1" readOnly>
+					<b>+</b>
+				</p>	
+			</div>
+			<p class="count">
+				共计<i>1</i>件商品:<span>1945.00元</span><a title="affirm.html" ui-sref="affirm">立即结算</a>
+			</p>
+		</div>
+	</main>
+	<footer class="footer">
+		<a title="home.html" ui-sref="home" data-tit="维诺珠宝">
+			<b class="iconfont">&#xe600;</b>
+			首页
+		</a>
+		<a title="classify.html" ui-sref="classify" data-tit="所有分类">
+			<b class="iconfont">&#xe62b;</b>
+			分类
+		</a>
+		<a title="shopping.html" ui-sref="shopping" class="on" data-tit="购物车">
+			<b class="iconfont">&#xe603;</b>
+			购物车
+		</a>
+		<a title="mine.html" ui-sref="mine" data-tit="个人中心">
+			<b class="iconfont">&#xf007c;</b>
+			我的
+		</a>
+	</footer>
+</div>	
+</body>
+</html>
+<script src="js/zepto.min .js"></script>
+<script src="js/iscroll5.js"></script>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+	/*--------------IScroll-------------------*/
+	var main=new IScroll("#main",{
+		click:true
+	});
+</script>

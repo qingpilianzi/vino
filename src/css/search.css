@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url("reset.css");
+/*------------------------全局-------------------------*/
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.clear {
+  clear: both; }
+
+/*-------------header-----------*/
+.header {
+  background: #f7f7f7;
+  border: none; }
+
+/* -----------main-------------- */
+.main {
+  padding-top: .2rem;
+  overflow: hidden; }
+  .main input {
+    width: 92%;
+    margin: 0 auto;
+    display: block;
+    height: .82rem;
+    line-height: .82rem;
+    font-size: .26rem;
+    padding: .2rem;
+    outline: none;
+    border: none; }
+  .main p {
+    font-size: .26rem;
+    padding-left: .3rem;
+    line-height: .8rem; }
+
+#info {
+  width: 90%;
+  margin: 0 auto; }
+  #info span {
+    width: 1.46rem;
+    height: .47rem;
+    line-height: .47rem;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    font-size: .26rem;
+    color: #333; }
+
+/*# sourceMappingURL=search.css.map */

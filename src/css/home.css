@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url("reset.css");
+/*------------------------全局-------------------------*/
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.clear {
+  clear: both; }
+
+/* -----------main-------------- */
+.main {
+  overflow: hidden; }
+
+/* -----------pic--------------- */
+.pic {
+  width: 94%;
+  margin: 0 auto;
+  height: auto; }
+  .pic b {
+    display: inline-block;
+    float: left; }
+    .pic b:nth-of-type(1) {
+      width: 32.6%; }
+      .pic b:nth-of-type(1) img {
+        width: 100%;
+        height: 100%;
+        float: left; }
+    .pic b:nth-of-type(2) {
+      margin-left: 1.4%;
+      width: 66%; }
+      .pic b:nth-of-type(2) img {
+        width: 100%;
+        height: auto;
+        float: left; }
+        .pic b:nth-of-type(2) img:nth-of-type(2) {
+          margin-top: 1.4%; }
+    .pic b:nth-of-type(3) img {
+      width: 49.3%;
+      float: left; }
+      .pic b:nth-of-type(3) img:nth-of-type(2) {
+        margin-left: 1.4%; }
+    .pic b:nth-of-type(4) img {
+      width: 49.3%;
+      float: left; }
+      .pic b:nth-of-type(4) img:nth-of-type(2) {
+        margin-left: 1.4%; }
+  .pic p {
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .28rem; }
+
+/* ------------banner---------- */
+#banner {
+  margin-bottom: .2rem;
+  overflow: hidden; }
+  #banner ul {
+    display: -webkit-flex; }
+    #banner ul li {
+      -webkit-flex-shrink: 0;
+      width: 100%; }
+      #banner ul li img {
+        width: 100%;
+        height: auto; }
+
+/*# sourceMappingURL=home.css.map */

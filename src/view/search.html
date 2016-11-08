@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/search.css">
+	<title>search</title>
+</head>
+<body>
+<div class="container">
+	<header class="header">
+		<a title="home.html" ui-sref="home" class="search"><img src="images/diamond_03.png" alt=""></a>
+		<h4 id="tit">搜索</h4>	
+		<a title="home.html" ui-sref="home" class="search"><img src="images/search_03.png" alt=""></a>
+	</header>
+	<main class="main">
+		<input type="text" placeholder="请输入关键词">
+		<p>热门搜索：</p>
+		<div id="info">
+			<span>钻石戒指</span>
+			<span>黄金吊坠</span>
+			<span>金镶玉</span>
+			<span>黄金戒指</span>
+			<span>钻石戒指</span>
+			<span>黄金吊坠</span>
+			<span>金镶玉</span>
+			<span>黄金戒指</span>
+			<span>钻石戒指</span>
+			<span>黄金吊坠</span>
+			<span>金镶玉</span>
+			<span>黄金戒指</span>
+			<span>钻石戒指</span>
+			<span>黄金吊坠</span>
+			<span>金镶玉</span>
+			<span>黄金戒指</span>
+		</div>
+	</main>
+</div>
+</body>
+</html>
+<script src="js/zepto.min .js"></script>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+	/*--------------IScroll-------------------*/
+	//var main=new IScroll("#main");
+	var address=window.location.search.split('=')[1];
+	$(".search").attr("href",address)
+</script>

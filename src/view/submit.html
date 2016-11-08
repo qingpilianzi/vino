@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>submit</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="css/submit.css">
+</head>
+<body>
+<div class="container">
+	<header class="header">
+		<a title="affirm.html" ui-sref="affirm"><img src="images/diamond_03.png" alt=""></a>
+		<h4>订单提交</h4>
+	</header>
+	<main class="main" id="main">
+		<div class="scroll">
+			<h4>
+				<span>订单提交成功</span>
+			</h4>
+			<article class="article">
+				<p>感谢你在本店购物！你的订单已提交成功，请记住你的订单号：<span>2016061737448</span></p>
+				<p>您选定的配送方式为：快捷快递</p>
+				<p>您的应付金额为<span>¥467.68元</span></p>
+				<p>您选择的支付方式为：货到付款</p>
+			</article>
+		</div>	
+	</main>
+</div>
+	
+</body>
+</html>
+<script src="js/zepto.min .js"></script>
+<script src="js/iscroll5.js"></script>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+	
+	/*--------------IScroll-------------------*/
+	var main=new IScroll("#main");
+</script>

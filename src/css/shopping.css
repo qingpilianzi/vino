@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url("reset.css");
+/*------------------------全局-------------------------*/
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.clear {
+  clear: both; }
+
+/*--------------main-------------*/
+.main {
+  overflow: hidden; }
+
+/* ----------tit---------- */
+.tit {
+  background: #eeecec;
+  font-size: .22rem;
+  height: .55rem;
+  line-height: .55rem;
+  padding: 0 .3rem;
+  position: relative;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3; }
+  .tit span {
+    width: .28rem;
+    height: .28rem;
+    border-radius: .2rem;
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin-top: .13rem;
+    margin-right: .15rem; }
+  .tit b {
+    width: .35rem;
+    height: .35rem;
+    display: inline-block;
+    position: absolute;
+    right: .3rem; }
+    .tit b img {
+      width: 100%;
+      margin-top: .1rem; }
+
+/* ------------goods----------- */
+.goods {
+  width: 100%;
+  background: #fff;
+  padding: .15rem .3rem;
+  font-size: .28rem; 
+  display: -webkit-flex;
+  -webkit-flex-direction: column;}
+  .goods .sell {
+    display: -webkit-flex; }
+    .goods .sell span {
+      width: .28rem;
+      height: .28rem;
+      border-radius: .2rem;
+      border: 1px solid #aaa;
+      display: inline-block;
+      margin-top: .13rem;
+      margin-right: .37rem;
+      margin-top: 1.09rem; }
+    .goods .sell dl {
+      display: inline-block;
+      display: -webkit-flex;
+      -webkit-flex: 1;
+      padding-top: .19rem;
+      padding-bottom: .2rem; }
+      .goods .sell dl dt img {
+        width: 1.95rem; }
+      .goods .sell dl dd {
+        -webkit-flex: 1;
+        line-height: .46rem;
+        padding-left: .3rem; }
+        .goods .sell dl dd small {
+          display: block;
+          color: #cbcbcb;
+          font-size: .24rem; }
+        .goods .sell dl dd i {
+          font-style: normal;
+          color: #c74c43;
+          font-size: .22rem; }
+  .goods .sub {
+    width: 3.2rem;
+    font-weight: normal;
+    background: #ccc;
+    padding: .07rem; }
+    .goods .sub b {
+      width: .5rem;
+      text-align: center;
+      display: inline-block; }
+    .goods .sub input {
+      width: 1.8rem;
+      height: .51rem;
+      text-align: center;
+      border: none;
+      outline: none; }
+
+/* ------------count----------- */
+.count {
+  width: 92%;
+  margin: 0 auto;
+  font-size: .24rem;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  position: relative; }
+  .count i {
+    font-style: normal; }
+  .count span {
+    color: #c74c43; }
+  .count a {
+    position: absolute;
+    background: #c74c43;
+    width: 2.54rem;
+    text-align: center;
+    color: #fff;
+    right: 0;
+    top: .18rem;
+    height: .92rem;
+    line-height: .92rem;
+    border-radius: .2rem;
+    font-weight: bold; }
+
+/*# sourceMappingURL=shopping.css.map */

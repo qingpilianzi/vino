@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url("reset.css");
+/*------------------------全局-------------------------*/
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.clear {
+  clear: both; }
+
+.header {
+  background: #f7f6f6; }
+
+/*----------main---------*/
+.main {
+  overflow: hidden; }
+
+/*--------------title----------------*/
+#title {
+  height: .68rem;
+  line-height: .68rem;
+  background: #fff;
+  border-bottom: 1px solid #ecebeb;
+  margin-bottom: .15rem; }
+  #title span {
+    font-size: .26rem;
+    width: 25%;
+    float: left;
+    text-align: center; }
+
+/* ------------goods--------------- */
+.goods {
+  display: -webkit-flex;
+  padding: .33rem 0 .5rem 0;
+  background: #fff;
+  border-top: 1px solid #ccc; }
+  .goods dt img {
+    width: 1.4rem;
+    margin-right: .3rem;
+    margin-left: .3rem; }
+  .goods dd {
+    -webkit-flex: 1;
+    font-size: .24rem;
+    line-height: .3rem; }
+    .goods dd h4 {
+      line-height: .8rem; }
+    .goods dd span {
+      color: #c74c43;
+      margin: 0 .1rem; }
+    .goods dd i {
+      font-style: normal;
+      color: #d6d1d1;
+      text-decoration: line-through; }
+    .goods dd b {
+      display: block;
+      padding-top: .2rem;
+      position: relative;
+      font-weight: normal; }
+      .goods dd b img {
+        width: .3rem;
+        margin-right: .2rem; }
+      .goods dd b em {
+        position: absolute;
+        right: .2rem;
+        font-style: normal; }
+
+/*# sourceMappingURL=diamond.css.map */
